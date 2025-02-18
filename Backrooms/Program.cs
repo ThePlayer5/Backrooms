@@ -14,6 +14,7 @@ namespace Backrooms
             Console.WriteLine("Привет, это эксперементальный проект в C# по ислледованию реального мира!");
             Console.Write("Куда хотите пойти: прямо / направо / налево ?: ");
             string direct = Console.ReadLine();
+            int almond_water = 0;
             Console.Write("Ой, вы провалились сквозь пол ");
             for (int i = 0; i < 3; i++)
             {
@@ -23,6 +24,8 @@ namespace Backrooms
             Thread.Sleep(1000);
             Console.WriteLine("\nВы оказались в Закулисье.");
             Console.WriteLine("Вы попали на Уровень 0.");
+            Console.WriteLine($"Банок миндальной воды: {almond_water}");
+            
 
 
 
