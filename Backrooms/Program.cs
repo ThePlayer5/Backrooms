@@ -22,7 +22,7 @@ namespace Backrooms
             }
             Thread.Sleep(1000);
             Console.WriteLine("\nВы оказались в Закулисье.");
-            Console.WriteLine("Вы попали на Уровень 0");
+            Console.WriteLine("Вы попали на Уровень 0.");
 
 
 
